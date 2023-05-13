@@ -12,7 +12,7 @@ function Results() {
   const location = useLocation(); //images,news,videos
 
   useEffect(()=>{
-    getResults('/search/q=Javascript Mastery')
+    getResults('nike')
   },[])
   
   if(isLoading) return <Loading/>;
