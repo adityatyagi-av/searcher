@@ -11,7 +11,7 @@ const baseUrl ='https://google-search74.p.rapidapi.com'
 export function ResultContextProvider({children}) {
     const [results,setResults] = useState([]);
     const [isLoading,setIsLoading]=useState(false);
-    const[searchTerm,setSearchTerm]=useState('');
+    const[searchTerm,setSearchTerm]=useState('ADITYA TYAGI AV');
 
 
     //videos , //search //images
